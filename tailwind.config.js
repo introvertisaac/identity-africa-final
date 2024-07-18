@@ -17,6 +17,11 @@ module.exports = {
       },
     },
     extend: {
+      colors: {
+        'custom-brown': '#3C1A00',
+        'custom-light-brown': '#4A2401',
+        'custom-white': '#FFF',
+      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },
