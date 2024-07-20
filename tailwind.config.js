@@ -21,6 +21,10 @@ module.exports = {
         'custom-brown': '#3C1A00',
         'custom-light-brown': '#4A2401',
         'custom-white': '#FFF',
+        peach: {
+          100: '#FFEEE1', // Light peach for background
+          200: '#FFE4D0', // Slightly darker peach for hover state
+        },
       },
       keyframes: {
         "accordion-down": {

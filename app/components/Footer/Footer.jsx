@@ -1,85 +1,49 @@
-// components/GetInTouchModal.js
 import React from 'react';
-import { FiX } from 'react-icons/fi';
 
-const GetInTouchModal = ({ isOpen, onClose }) => {
-  if (!isOpen) return null;
-
+const Footer = () => {
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
-      <div className="bg-white rounded-lg w-[90%] h-[90%] p-6 md:p-10 relative">
-        <button
-          onClick={onClose}
-          className="absolute top-4 right-4 text-gray-500 hover:text-gray-700"
-        >
-          <FiX className="text-2xl" />
-        </button>
-        <h2 className="text-white bg-orange-500 p-4 rounded-t-lg text-xl md:text-2xl font-semibold mb-6">
-          GET IN TOUCH WITH US
-        </h2>
-        <form className="space-y-6">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div>
-              <label className="block text-sm font-medium text-gray-700" htmlFor="fullName">Full Name*</label>
-              <input
-                type="text"
-                id="fullName"
-                className="mt-1 block w-full rounded-md border border-gray-300 shadow-sm focus:outline-none focus:ring focus:ring-orange-500 focus:ring-opacity-50 p-3 placeholder-gray-500"
-                placeholder="Please enter your full name"
-                required
-              />
-            </div>
-            <div>
-              <label className="block text-sm font-medium text-gray-700" htmlFor="phoneNumber">Phone Number*</label>
-              <input
-                type="tel"
-                id="phoneNumber"
-                className="mt-1 block w-full rounded-md border border-gray-300 shadow-sm focus:outline-none focus:ring focus:ring-orange-500 focus:ring-opacity-50 p-3 placeholder-gray-500"
-                placeholder="Please enter your phone number"
-                required
-              />
-            </div>
-            <div>
-              <label className="block text-sm font-medium text-gray-700" htmlFor="email">Email Address*</label>
-              <input
-                type="email"
-                id="email"
-                className="mt-1 block w-full rounded-md border border-gray-300 shadow-sm focus:outline-none focus:ring focus:ring-orange-500 focus:ring-opacity-50 p-3 placeholder-gray-500"
-                placeholder="Please enter your email address"
-                required
-              />
-            </div>
-            <div>
-              <label className="block text-sm font-medium text-gray-700" htmlFor="contactMethod">Preferred Contact Method*</label>
-              <select
-                id="contactMethod"
-                className="mt-1 block w-full rounded-md border border-gray-300 shadow-sm focus:outline-none focus:ring focus:ring-orange-500 focus:ring-opacity-50 p-3 placeholder-gray-500"
-                required
-              >
-                <option value="">Please select your preferred contact method</option>
-                <option value="email">Email</option>
-                <option value="phone">Phone</option>
-              </select>
-            </div>
+    <footer className="bg-[#2E1607] text-white w-full md:mt-10">
+      <div className="container mx-auto px-2 md:px-4 py-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+          <div className="text-center md:text-left md:mr-6">
+            <img src="/logo.png" alt="Identify Africa" className="h-12 mx-auto md:mx-0" />
+            <p className="mt-4">We aim to establish a global benchmark in secure identity verification and data validation, enhancing trust and security across digital interactions and empowering businesses to thrive in the African market, one verification at a time.</p>
+            <p className="mt-2">Licensed by <a href="https://odpc.go.ke" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">ODPC</a></p>
           </div>
-          <div>
-            <label className="block text-sm font-medium text-gray-700" htmlFor="message">Message</label>
-            <textarea
-              id="message"
-              rows="4"
-              className="mt-1 block w-full rounded-md border border-gray-300 shadow-sm focus:outline-none focus:ring focus:ring-orange-500 focus:ring-opacity-50 p-3 placeholder-gray-500"
-              placeholder="Please enter your message"
-            ></textarea>
+          <div className="text-center md:text-left">
+            <h3 className="font-semibold mb-3">Quick Links</h3>
+            <ul>
+              <li><a href="#about" className="hover:underline">About Us</a></li>
+              <li><a href="#products" className="hover:underline">Products & Solutions</a></li>
+              <li><a href="#developers" className="hover:underline">Developers</a></li>
+              <li><a href="#contact" className="hover:underline">Get in touch</a></li>
+            </ul>
           </div>
-          <div className="flex justify-center">
-            <button type="submit" className="bg-orange-500 text-white px-6 py-2 rounded-md hover:bg-orange-600">
-              Submit Form
-            </button>
+          <div className="text-center md:text-left">
+            <h3 className="font-semibold mb-3">Connect With Us</h3>
+            <ul>
+              <li><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:underline">LinkedIn</a></li>
+            </ul>
           </div>
-        </form>
+          <div className="text-center md:text-left">
+            <h3 className="font-semibold mb-3">Contact</h3>
+            <p className='md:mb-3'>Email Address: <a href="mailto:info@identifyafrica.io" className="hover:underline"><br/>info@identifyafrica.io</a></p>
+            <p className='md:mb-3'>Phone Number: <br/>+254 722 273 324</p>
+            <p className='md:mb-3'>Physical Address: <br/>The Address, Muthangari Drive, Nairobi, Kenya</p>
+          </div>
+        </div>
       </div>
-    </div>
+      <div className="bg-custom-white text-black w-full">
+        <div className="container mx-auto px-2 md:px-4 py-4 flex flex-col md:flex-row justify-between text-sm">
+          <p className="mb-2 md:mb-0 text-center md:text-left">&copy; Copyright 2024. Identify Africa</p>
+          <div className="flex justify-center md:justify-end">
+            <a href="#terms" className="hover:underline mx-2">Terms & Conditions</a>
+            <a href="#privacy" className="hover:underline mx-2">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
   );
 };
 
-export default GetInTouchModal;
+export default Footer;
