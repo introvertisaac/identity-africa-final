@@ -55,7 +55,7 @@ export default function HeroSection() {
       <div className="mt-8 flex justify-start w-2/5">
         <div className="bg-gray-50 rounded-full p-2 flex items-center space-x-4 max-w-xl">
           <Image
-            src="/people.png"
+            src="/People.png"
             alt="User Avatars"
             width={150}
             height={40}
