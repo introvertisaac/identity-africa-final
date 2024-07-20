@@ -53,7 +53,7 @@ const Navbar = () => {
             ))}
           </div>
           <div className="hidden md:flex">
-            <button onClick={toggleModal} className="bg-orange-500 text-white px-4 py-2 rounded-md hover:bg-orange-600 transition duration-300 ease-in-out">
+            <button onClick={toggleModal} className="bg-orange-500 text-white px-4 py-2 rounded-md hover:bg-orange-600 transition duration-300 ease-in-out rounded-md">
               Get In Touch
             </button>
           </div>
@@ -80,7 +80,7 @@ const Navbar = () => {
             ))}
             <button
               onClick={toggleModal}
-              className="block w-full text-left px-4 py-2 hover:bg-gray-100 bg-[#E76C21] text-white rounded-md transition duration-300 ease-in-out"
+              className="block w-full text-left px-4 py-2 hover:bg-gray-100 bg-[#E76C21] text-white rounded-md transition duration-300 ease-in-out rounded-md"
             >
               Get In Touch
             </button>

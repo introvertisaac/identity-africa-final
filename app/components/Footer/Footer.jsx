@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto px-2 md:px-4 py-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
           <div className="text-center md:text-left md:mr-6">
-            <img src="/logo.png" alt="Identify Africa" className="h-12 mx-auto md:mx-0" />
+            <img src="/white-logo.png" alt="Identify Africa" className="h-12 mx-auto md:mx-0" />
             <p className="mt-4">We aim to establish a global benchmark in secure identity verification and data validation, enhancing trust and security across digital interactions and empowering businesses to thrive in the African market, one verification at a time.</p>
             <p className="mt-2">Licensed by <a href="https://odpc.go.ke" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">ODPC</a></p>
           </div>
