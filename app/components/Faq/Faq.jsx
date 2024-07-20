@@ -7,7 +7,7 @@ const FAQItem = ({ question, answer, isOpen, toggleOpen }) => {
   return (
     <div className="mb-4">
       <button
-        className="w-full text-left p-6 bg-peach-100 hover:bg-peach-200 transition-colors duration-200 flex justify-between items-center"
+        className="w-full text-left p-6 bg-[FAE2D3] hover:bg-peach-200 transition-colors duration-200 flex justify-between items-center"
         onClick={toggleOpen}
       >
         <span className="font-semibold">{question}</span>

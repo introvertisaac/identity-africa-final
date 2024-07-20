@@ -32,7 +32,7 @@ const AboutUs = () => {
                         <h2 className="text-sm font-semibold text-gray-600 mb-4">OUR STORY</h2>
                             <h3 className="text-2xl font-bold mb-4">Who We Are</h3>
                             <p className="text-lg leading-relaxed mb-4">
-                                Founded in 2020, Identify Africa is a female-founded fintech company leveraging strategic partnerships to distribute our services and drive growth. We pride ourselves on streamlining access to African markets through unified, secure APIs, helping companies and developers connect to crucial services and datasets that fully identify and understand the region's people and assets.
+                                Founded in 2023, Identify Africa is a female-founded fintech company leveraging strategic partnerships to distribute our services and drive growth. We pride ourselves on streamlining access to African markets through unified, secure APIs, helping companies and developers connect to crucial services and datasets that fully identify and understand the region's people and assets.
                             </p>
                         </div>
                         <div className="mb-8 md:mb-0 flex-grow">
