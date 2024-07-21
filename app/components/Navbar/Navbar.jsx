@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import React, { useState } from 'react';
 import { FiMenu, FiX } from 'react-icons/fi';
@@ -28,14 +28,14 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="bg-white shadow-md w-full fixed top-0 left-0 z-10">
-        <div className="container mx-auto px-2 md:px-4 py-4 flex justify-between items-center">
+      <nav className="bg-white shadow-md w-full fixed top-0 md:px-20  left-0 z-10">
+        <div className="w-full px-4 md:px-8 py-4 flex justify-between items-center">
           <div className="flex items-center">
             <Link href="/">
-              <img src="/logo.png" alt="Identify Africa" className="h-12" />
+              <img src="/logo.png" alt="Identify Africa" className="h-16" />
             </Link>
           </div>
-          <div className="hidden md:flex flex-grow justify-center space-x-6">
+          <div className="hidden md:flex flex-grow justify-center space-x-8">
             {['/about', '/products', '/developers'].map((path) => (
               <Link
                 key={path}
@@ -53,7 +53,7 @@ const Navbar = () => {
             ))}
           </div>
           <div className="hidden md:flex">
-            <button onClick={toggleModal} className="bg-orange-500 text-white px-4 py-2 rounded-3xl hover:bg-orange-600 transition duration-300 ease-in-out ">
+            <button onClick={toggleModal} className="bg-orange-500 text-white px-6 py-2 rounded-3xl hover:bg-orange-600 transition duration-300 ease-in-out ">
               Get In Touch
             </button>
           </div>

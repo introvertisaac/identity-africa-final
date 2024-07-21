@@ -12,13 +12,15 @@ export default function HeroSection() {
   };
 
   return (
-    <div className="bg-white md:px-4 py-2 w-full">
+    <div className="bg-white md:px-10 py-2 w-full">
       <div className="flex flex-col md:flex-row items-start justify-between mt-14 px-4">
         <div className="md:w-1/2 mb-8 md:mb-0 flex flex-col">
-          <div className="bg-[#FAE2D3] text-[#B9561A] px-3 text-lg py-1 rounded-full inline-block mb-6">
-            <p className='px-2'>THE CONTINENT OF AFRICA</p>
-          </div> 
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">
+          <div className="inline-block mb-6">
+            <div className="bg-[#FAE2D3] text-[#B9561A] px-3 py-1 rounded-full inline-block">
+              <p className='text-md px-4 font-medium'>THE CONTINENT OF AFRICA</p>
+            </div>
+          </div>
+          <h1 className="text-3xl md:text-5xl font-bold mb-4">
             Empowering Africa with Secure Identity Verification
           </h1>
           <p className="text-gray-600 mb-6">
@@ -40,17 +42,17 @@ export default function HeroSection() {
           </div>
           
           <div className="mt-14">
-            <div className="bg-white rounded-full p-2 flex items-center space-x-4 max-w-xl border border-[#FAE2D3] ">
+            <div className="bg-white rounded-full p-2 flex items-center space-x-4 max-w-xl border border-[#FAE2D3]">
               <Image
                 src="/People.png"
                 alt="User Avatars"
-                width={200}
-                height={80}
+                width={300}
+                height={120}
                 className="rounded-full"
               />
               <div className="text-gray-700 pr-6 w-2/3 flex-col items-center justify-center text-center">
                 <span className="font-bold text-2xl text-[#E76C21]">300M+</span>
-                <p className="text-sm text-black">verifications completed under 2 secs API response type</p>
+                <p className="text-sm text-black">verifications completed under 2 secs API response time</p>
               </div>
             </div>
           </div>
