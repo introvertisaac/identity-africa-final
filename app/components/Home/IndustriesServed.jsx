@@ -43,7 +43,7 @@ function IndustryCard({ Icon, name, description }) {
             exit={{ opacity: 0 }}
             transition={{ duration: 0.3 }}
           >
-            <div className="w-16 h-16 bg-[#FFFBF8] rounded-2xl flex items-center justify-center mb-4 border-2 border-[#E76C21]">
+            <div className="w-16 h-16 bg-[#FFFBF8] rounded-xl flex items-center justify-center mb-4 border-2 border-[#E76C21]">
               <Icon className="text-[#E76C21] text-3xl" />
             </div>
             <p className="font-bold mb-2 font-satoshi text-xl">{name}</p>
@@ -62,13 +62,33 @@ function IndustryCard({ Icon, name, description }) {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            transition={{ duration: 0.3 }}
+            transition={{ duration: 0.5, ease: "easeInOut" }}
           >
-            <div className="w-16 h-16 bg-white rounded-lg flex items-center justify-center mb-4">
-              <Icon className="text-[#E76C21] text-3xl" />
-            </div>
-            <p className="font-bold mb-2 font-satoshi text-xl">{name}</p>
-            <p className="text-md font-satoshi">{description}</p>
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.2, duration: 0.5 }}
+            >
+              <div className="w-16 h-16 bg-white rounded-lg flex items-center justify-center mb-4">
+                <Icon className="text-[#E76C21] text-3xl" />
+              </div>
+            </motion.div>
+            <motion.p 
+              className="font-bold mb-2 font-satoshi text-xl"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.3, duration: 0.5 }}
+            >
+              {name}
+            </motion.p>
+            <motion.p 
+              className="text-md font-satoshi"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.4, duration: 0.5 }}
+            >
+              {description}
+            </motion.p>
             <div
               className="cursor-pointer absolute bottom-6 right-6"
               onClick={() => setIsExpanded(false)}
