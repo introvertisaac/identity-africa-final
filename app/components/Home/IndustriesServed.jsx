@@ -51,8 +51,8 @@ function IndustryCard({ Icon, name, description }) {
               className="cursor-pointer absolute bottom-6 right-6"
               onClick={() => setIsExpanded(true)}
             >
-              <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center border-2 border-gray-300">
-                <FaPlus className="text-gray-500 text-sm" />
+              <div className="w-8 h-8 bg-black rounded-full flex items-center justify-center border-2 border-black">
+                <FaPlus className="text-white text-sm" />
               </div>
             </div>
           </motion.div>
@@ -71,10 +71,10 @@ function IndustryCard({ Icon, name, description }) {
             <p className="text-sm">{description}</p>
             <div
               className="cursor-pointer absolute bottom-6 right-6"
-              onClick={() => setIsExpanded(true)}
+              onClick={() => setIsExpanded(false)}
             >
               <div className="w-8 h-8 bg-black rounded-full flex items-center justify-center border-2 border-black">
-                <FaPlus className="text-white text-sm" />
+                <FaTimes className="text-white text-sm" />
               </div>
             </div>
           </motion.div>
