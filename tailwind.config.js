@@ -11,8 +11,15 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        recoleta: ['Recoleta', 'serif'],
-        satoshi: ['Satoshi', 'sans-serif'],
+        'recoleta': ['Recoleta', 'serif'],
+        'recoleta-sans': ['Recoleta Sans', 'sans-serif'],
+        'satoshi': ['Satoshi', 'sans-serif'],
+      },
+      fontWeight: {
+        'regular': 400,
+        'bold': 700,
+        'italic': 'italic',
+        'black': 900,
       },
     },
     container: {

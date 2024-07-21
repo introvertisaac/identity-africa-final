@@ -1,6 +1,6 @@
 // app/layout.js
 import './globals.css';
-import './styles/fonts.css'; // Import the custom fonts CSS
+import '@/app/styles/fonts.css'; // Import the custom fonts CSS
 import Footer from './components/Footer/Footer';
 import Navbar from './components/Navbar/Navbar';
 
