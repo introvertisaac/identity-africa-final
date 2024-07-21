@@ -2,8 +2,8 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="bg-[#2E1607] text-white w-full md:mt-10">
-      <div className="px-6 md:px-16 py-8">
+    <footer className="bg-[#2E1607] text-white w-full md:mt-10 ">
+      <div className="px-6 md:px-20 py-8 md:mr-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="text-left md:mr-8">
             <img src="/white-logo.png" alt="Identify Africa" className="h-12 mb-4" />
@@ -16,7 +16,7 @@ const Footer = () => {
               <li><a href="/about" className="hover:underline">About Us</a></li>
               <li><a href="/products" className="hover:underline">Products & Solutions</a></li>
               <li><a href="/developers" className="hover:underline">Developers</a></li>
-              <li><a href="#contact" className="hover:underline">Get in touch</a></li>
+              <li><a href="/developers" className="hover:underline">Get in touch</a></li>
             </ul>
           </div>
           <div className="text-left">
@@ -38,7 +38,7 @@ const Footer = () => {
           <p className="mb-2 md:mb-0 text-left">&copy; Copyright 2024. Identify Africa</p>
           <div className="flex flex-col md:flex-row md:justify-end space-y-2 md:space-y-0 md:space-x-4">
             <a href="#terms" className="hover:underline">Terms & Conditions</a>
-            <a href="#privacy" className="hover:underline">Privacy Policy</a>
+            <a href="/privacy" className="hover:underline">Privacy Policy</a>
           </div>
         </div>
       </div>

@@ -1,6 +1,5 @@
-/* eslint-disable react/no-unescaped-entities */
-// pages/about.js
 
+import { ImQuotesLeft, ImQuotesRight } from 'react-icons/im';
 import { FaCheckCircle, FaChartBar, FaIdCard, FaUsers, FaClipboardList, FaFileAlt } from 'react-icons/fa';
 
 const AboutUs = () => {
@@ -32,7 +31,7 @@ const AboutUs = () => {
                         <h2 className="text-sm font-semibold text-gray-600 mb-4">OUR STORY</h2>
                             <h3 className="text-2xl font-bold mb-4">Who We Are</h3>
                             <p className="text-lg leading-relaxed mb-4">
-                                Founded in 2023, Identify Africa is a female-founded fintech company leveraging strategic partnerships to distribute our services and drive growth. We pride ourselves on streamlining access to African markets through unified, secure APIs, helping companies and developers connect to crucial services and datasets that fully identify and understand the region's people and assets.
+                                Founded in 2023, Identify Africa is a female-founded fintech company leveraging strategic partnerships to distribute our services and drive growth. We pride ourselves on streamlining access to African markets through unified, secure APIs, helping companies and developers connect to crucial services and datasets that fully identify and understand the region&apos;s people and assets.
                             </p>
                         </div>
                         <div className="mb-8 md:mb-0 flex-grow">
@@ -123,20 +122,26 @@ const AboutUs = () => {
             </section>
 
 
-            <section className="mb-12">
-            <h2 className="text-sm font-semibold text-gray-600 mb-4">SUCCESS STORIES</h2>
-                <h3 className="text-2xl font-bold mb-6">How Identify Africa transforms the digital space</h3>
-                <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-6">
-                    <div className="p-6 bg-white shadow rounded-lg">
-                        <p className="mb-4">"With Identify Africa, we reduced our onboarding time by 60% and significantly enhanced our security measures. Their solutions have been integral to our growth."</p>
-                        <p className="font-bold">– FinTech Innovator ABC</p>
-                    </div>
-                    <div className="p-6 bg-white shadow rounded-lg">
-                        <p className="mb-4">"The comprehensive verification tools from Identify Africa have enabled us to stay compliant and secure while scaling our operations globally."</p>
-                        <p className="font-bold">– Global FinTech Leader XYZ</p>
-                    </div>
-                </div>
-            </section>
+      
+
+<section className="mb-12">
+    <h2 className="text-sm font-semibold text-gray-600 mb-4">SUCCESS STORIES</h2>
+    <h3 className="text-2xl font-bold mb-6">How Identify Africa transforms the digital space</h3>
+    <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-6">
+        <div className="p-6 bg-white shadow rounded-lg relative">
+            <ImQuotesLeft className="absolute top-2 left-2 text-[#FAE2D3] text-xl" />
+            <p className="mb-4">&ldquo;With Identify Africa, we reduced our onboarding time by 60% and significantly enhanced our security measures. Their solutions have been integral to our growth.&ldquo;</p>
+            <p className="font-bold">– FinTech Innovator ABC</p>
+            <ImQuotesRight className="absolute bottom-2 right-2 text-[#FAE2D3] text-xl" />
+        </div>
+        <div className="p-6 bg-white shadow rounded-lg relative">
+            <ImQuotesLeft className="absolute top-2 left-2 text-[#FAE2D3] text-xl" />
+            <p className="mb-4">&ldquo;The comprehensive verification tools from Identify Africa have enabled us to stay compliant and secure while scaling our operations globally.&ldquo;</p>
+            <p className="font-bold">– Global FinTech Leader XYZ</p>
+            <ImQuotesRight className="absolute bottom-2 right-2 text-[#FAE2D3] text-xl" />
+        </div>
+    </div>
+</section>
         </div>
     );
 };
