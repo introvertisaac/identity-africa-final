@@ -14,12 +14,12 @@ export default function HeroSection() {
   };
 
   return (
-    <div className="bg-white md:px-8 py-2 w-full shadow-lg rounded-2xl">
+    <div className="bg-white  md:px-8 py-2 w-full shadow-lg rounded-2xl  ">
       <div className="flex flex-col md:flex-row items-start justify-between mt-20 mb-10 px-4">
         <div className="md:w-1/2 mb-8 md:mb-0 flex flex-col">
           <div className="inline-block mb-6">
             <div className="bg-[#FAE2D3] text-[#B9561A] px-3 py-1 rounded-full inline-block">
-              <p className='text-md px-4 py-2 font-satoshi font-bold'>THE CONTINENT OF AFRICA</p>
+              <p className='text-md px-4 py-2 font-satoshi font-bold '>THE CONTINENT OF AFRICA</p>
             </div>
           </div>
           <h1 className="text-3xl md:text-5xl font-extrabold mb-4 font-recoleta  ">
@@ -43,8 +43,8 @@ export default function HeroSection() {
             </button>
           </div>
           
-          <div className="md:mt-6">
-            <div className="bg-white rounded-full p-2 flex items-center space-x-4 max-w-xl border border-[#FAE2D3] shadow-md">
+          <div className="md:mt-6 ">
+            <div className="bg-white rounded-full p-2 flex items-center space-x-4 max-w-xl border border-[#FAE2D3] shadow-md flex flex-col md:flex-row">
               <Image
                 src="/People.png"
                 alt="User Avatars"
