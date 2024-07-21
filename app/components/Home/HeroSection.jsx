@@ -20,10 +20,10 @@ export default function HeroSection() {
               <p className='text-md px-4 font-medium'>THE CONTINENT OF AFRICA</p>
             </div>
           </div>
-          <h1 className="text-3xl md:text-5xl font-bold mb-4">
+          <h1 className="text-3xl md:text-5xl font-bold mb-4 font-recoleta">
             Empowering Africa with Secure Identity Verification
           </h1>
-          <p className="text-gray-600 mb-6 md:mt-6">
+          <p className="text-gray-600 mb-6 md:mt-6 font-satoshi">
             Effortlessly verify identities with cutting-edge technology tailored for the African market.
           </p>
           <div className="flex space-x-4 mb-8 md:mt-4">

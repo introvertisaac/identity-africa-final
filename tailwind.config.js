@@ -9,6 +9,12 @@ module.exports = {
   ],
   prefix: "",
   theme: {
+    extend: {
+      fontFamily: {
+        recoleta: ['Recoleta', 'serif'],
+        satoshi: ['Satoshi', 'sans-serif'],
+      },
+    },
     container: {
       center: true,
       padding: "2rem",

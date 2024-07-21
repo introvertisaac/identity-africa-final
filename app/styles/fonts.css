@@ -1,0 +1,80 @@
+/* styles/fonts.css */
+@font-face {
+  font-family: 'Recoleta';
+  src: url('/fonts/Recoleta-Regular.woff2') format('woff2'),
+       url('/fonts/Recoleta-Regular.woff') format('woff'),
+       url('/fonts/Recoleta-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recoleta';
+  src: url('/fonts/Recoleta-Italic.woff2') format('woff2'),
+       url('/fonts/Recoleta-Italic.woff') format('woff'),
+       url('/fonts/Recoleta-Italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recoleta';
+  src: url('/fonts/Recoleta-Bold.woff2') format('woff2'),
+       url('/fonts/Recoleta-Bold.woff') format('woff'),
+       url('/fonts/Recoleta-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recoleta';
+  src: url('/fonts/Recoleta-BoldItalic.woff2') format('woff2'),
+       url('/fonts/Recoleta-BoldItalic.woff') format('woff'),
+       url('/fonts/Recoleta-BoldItalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/fonts/Satoshi-Regular.woff2') format('woff2'),
+       url('/fonts/Satoshi-Regular.woff') format('woff'),
+       url('/fonts/Satoshi-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/fonts/Satoshi-Italic.woff2') format('woff2'),
+       url('/fonts/Satoshi-Italic.woff') format('woff'),
+       url('/fonts/Satoshi-Italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/fonts/Satoshi-Bold.woff2') format('woff2'),
+       url('/fonts/Satoshi-Bold.woff') format('woff'),
+       url('/fonts/Satoshi-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/fonts/Satoshi-BoldItalic.woff2') format('woff2'),
+       url('/fonts/Satoshi-BoldItalic.woff') format('woff'),
+       url('/fonts/Satoshi-BoldItalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}

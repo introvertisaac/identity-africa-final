@@ -1,19 +1,18 @@
-import { Inter } from "next/font/google";
-import "./globals.css";
-import Footer from "./components/Footer/Footer";
-import Navbar from "./components/Navbar/Navbar";
-
-const inter = Inter({ subsets: ["latin"] });
+// app/layout.js
+import './globals.css';
+import './styles/fonts.css'; // Import the custom fonts CSS
+import Footer from './components/Footer/Footer';
+import Navbar from './components/Navbar/Navbar';
 
 export const metadata = {
-  title: "Identity Africa",
-  description: "Empowering Afrika with Secure Identity Verification",
+  title: 'Identity Africa',
+  description: 'Empowering Afrika with Secure Identity Verification',
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} flex flex-col min-h-screen bg-[#FFFBF8]`}>
+      <body className="flex flex-col min-h-screen bg-[#FFFBF8]">
         <Navbar />
         <main className="flex-grow">{children}</main>
         <Footer />
