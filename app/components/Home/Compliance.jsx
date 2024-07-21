@@ -1,4 +1,5 @@
 import { FaLock, FaShieldAlt } from 'react-icons/fa';
+import { IoShieldCheckmark } from "react-icons/io5";
 
 const SecurityCompliance = () => {
   return (
@@ -25,7 +26,7 @@ const SecurityCompliance = () => {
         
         <div className="flex items-center bg-white p-6 shadow-md rounded-lg">
         <div className="w-16 h-16 bg-[#FFFBF8] rounded-xl flex items-center justify-center mb-4 border border-[#E76C21]">
-              <FaShieldAlt className="text-[#E76C21] text-2xl" />
+              <IoShieldCheckmark className="text-[#E76C21] text-2xl" />
             </div>
           <div className="ml-4">
             <h2 className="text-2xl font-bold font-satoshi mb-2">Data Protection</h2>
