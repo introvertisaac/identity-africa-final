@@ -1,5 +1,8 @@
 
 import { ImQuotesLeft, ImQuotesRight } from 'react-icons/im';
+import { IoMdDocument, IoIosWallet, IoMdPerson   } from "react-icons/io";
+import { HiBuildingOffice2  } from "react-icons/hi2";
+
 import { FaCheckCircle, FaChartBar, FaIdCard, FaUsers, FaClipboardList, FaFileAlt, FaUser, FaFile } from 'react-icons/fa';
 
 const AboutUs = () => {
@@ -7,7 +10,7 @@ const AboutUs = () => {
         <div className=" px-4 py-8 bg-[#FFFBF8]   max-w-full  md:px-20 ">
             <section className='pt-32 w-full flex flex-col items-center bg-[#FFFBF8]'>
                 <div className='text-center min-w-full md:max-w-[60%] lg:max-w-[80%] mb-8 flex justify-center items-center align-middle '>
-                    <h2 className="text-4xl font-extrabold max-w-5xl font-recoleta">
+                    <h2 className="text-4xl font-extrabold max-w-6xl font-recoleta">
                         We are here to ensure <span className="text-[#E76C21]">secure</span> and<span className="text-[#E76C21]"> seamless </span>digital interactions for your business
                     </h2>
                 </div>
@@ -69,7 +72,7 @@ const AboutUs = () => {
     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 font-satoshi">
         <div className="p-6 bg-white shadow rounded-lg flex flex-row items-start h-full">
             <div className="w-16 h-16 bg-[#FFFBF8] rounded-xl flex items-center justify-center mr-4 border border-[#E76C21] flex-shrink-0">
-                <FaUsers className="text-[#E76C21] text-2xl" />
+                <IoMdPerson   className="text-[#E76C21] text-2xl" />
             </div>
             <div className="flex-grow">
                 <h4 className="text-xl font-semibold mb-2">Customer KYC Verification</h4>
@@ -78,7 +81,7 @@ const AboutUs = () => {
         </div>
         <div className="p-6 bg-white shadow rounded-lg flex flex-row items-start h-full">
             <div className="w-16 h-16 bg-[#FFFBF8] rounded-xl flex items-center justify-center mr-4 border border-[#E76C21] flex-shrink-0">
-                <FaIdCard className="text-[#E76C21] text-2xl" />
+                <HiBuildingOffice2  className="text-[#E76C21] text-2xl" />
             </div>
             <div className="flex-grow">
                 <h4 className="text-xl font-semibold mb-2">Business KYC Verification</h4>
@@ -87,7 +90,7 @@ const AboutUs = () => {
         </div>
         <div className="p-6 bg-white shadow rounded-lg flex flex-row items-start h-full">
             <div className="w-16 h-16 bg-[#FFFBF8] rounded-xl flex items-center justify-center mr-4 border border-[#E76C21] flex-shrink-0">
-                <FaClipboardList className="text-[#E76C21] text-2xl" />
+                <IoIosWallet className="text-[#E76C21] text-2xl" />
             </div>
             <div className="flex-grow">
                 <h4 className="text-xl font-semibold mb-2">Transactional Details Validation</h4>
@@ -96,7 +99,7 @@ const AboutUs = () => {
         </div>
         <div className="p-6 bg-white shadow rounded-lg flex flex-row items-start h-full">
             <div className="w-16 h-16 bg-[#FFFBF8] rounded-xl flex items-center justify-center mr-4 border border-[#E76C21] flex-shrink-0">
-                <FaFileAlt className="text-[#E76C21] text-2xl" />
+                <IoMdDocument className="text-[#E76C21] text-2xl" />
             </div>
             <div className="flex-grow">
                 <h4 className="text-xl font-semibold mb-2">Document Authentication</h4>

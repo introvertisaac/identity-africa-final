@@ -20,6 +20,7 @@ module.exports = {
         'bold': 700,
         'italic': 'italic',
         'black': 900,
+        'xxl': 1100
       },
     },
     container: {
