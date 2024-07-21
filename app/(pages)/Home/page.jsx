@@ -5,7 +5,7 @@ import Features from '@/app/components/Home/Features';
 import IndustriesServed from '@/app/components/Home/IndustriesServed';
 import Compliance from '@/app/components/Home/Compliance';
 
-export default function Home() {
+export default function Landing() {
   return (
     <div className='w-[100%]  py-8  bg-[#FFFBF8]'>
      

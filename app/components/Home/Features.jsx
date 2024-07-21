@@ -4,9 +4,9 @@ import { useState, useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
-import SwiperCore, { Pagination } from 'swiper';
+import { Pagination } from 'swiper/modules';
 
-SwiperCore.use([Pagination]);
+
 
 export default function Features() {
   const [isMobile, setIsMobile] = useState(false);
@@ -33,11 +33,12 @@ export default function Features() {
       </h1>
 
       {isMobile ? (
-        <Swiper
-          spaceBetween={10}
-          slidesPerView={1}
-          pagination={{ clickable: true, el: '.swiper-pagination', bulletClass: 'swiper-pagination-bullet', bulletActiveClass: 'swiper-pagination-bullet-active' }}
-        >
+       <Swiper
+       spaceBetween={10}
+       slidesPerView={1}
+       modules={[Pagination]}
+       pagination={{ clickable: true, el: '.swiper-pagination', bulletClass: 'swiper-pagination-bullet', bulletActiveClass: 'swiper-pagination-bullet-active' }}
+     >
           <SwiperSlide>
             <Card
               src="/id.gif"
