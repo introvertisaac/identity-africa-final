@@ -31,7 +31,7 @@ function IndustryCard({ Icon, name, description }) {
 
   return (
     <motion.div
-      className="flex flex-col items-start w-full md:w-[23%] bg-white p-6 relative transition-all duration-500 shadow-lg rounded-lg h-72 mx-2 md:mx-0"
+      className="flex flex-col items-start w-full md:w-[20%] bg-white p-6 relative transition-all duration-500 shadow-lg rounded-lg h-72 mx-2 md:mx-0"
       layout
     >
       <AnimatePresence mode="wait">
@@ -43,38 +43,38 @@ function IndustryCard({ Icon, name, description }) {
             exit={{ opacity: 0 }}
             transition={{ duration: 0.3 }}
           >
-            <div className="w-16 h-16 bg-orange-100 rounded-lg flex items-center justify-center mb-4">
-              <Icon className="text-orange-500 text-3xl" />
+            <div className="w-16 h-16 bg-[#FFFBF8] rounded-2xl flex items-center justify-center mb-4 border-2 border-[#E76C21]">
+              <Icon className="text-[#E76C21] text-3xl" />
             </div>
-            <p className="font-semibold mb-8">{name}</p>
+            <p className="font-bold mb-2 font-satoshi text-xl">{name}</p>
             <div
               className="cursor-pointer absolute bottom-6 right-6"
               onClick={() => setIsExpanded(true)}
             >
-              <div className="w-8 h-8 bg-black rounded-full flex items-center justify-center border-2 border-black">
-                <FaPlus className="text-white text-sm" />
+              <div className="w-4 h-4 bg-black rounded-full flex items-center justify-center border-2 border-black">
+                <FaPlus className="text-gray-50 text-xs" />
               </div>
             </div>
           </motion.div>
         ) : (
           <motion.div
-            className="absolute inset-0 bg-orange-500 text-white p-6 flex flex-col items-start justify-start rounded-lg"
+            className="absolute inset-0 bg-[#E76C21] text-white p-6 flex flex-col items-start justify-start rounded-lg"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.3 }}
           >
             <div className="w-16 h-16 bg-white rounded-lg flex items-center justify-center mb-4">
-              <Icon className="text-orange-500 text-3xl" />
+              <Icon className="text-[#E76C21] text-3xl" />
             </div>
-            <p className="font-semibold mb-4">{name}</p>
-            <p className="text-sm">{description}</p>
+            <p className="font-bold mb-2 font-satoshi text-xl">{name}</p>
+            <p className="text-md font-satoshi">{description}</p>
             <div
               className="cursor-pointer absolute bottom-6 right-6"
               onClick={() => setIsExpanded(false)}
             >
-              <div className="w-8 h-8 bg-black rounded-full flex items-center justify-center border-2 border-black">
-                <FaTimes className="text-white text-sm" />
+              <div className="w-4 h-4 bg-white rounded-full flex items-center justify-center border-2 border-white">
+                <FaTimes className="text-[#E76C21] text-xs" />
               </div>
             </div>
           </motion.div>
