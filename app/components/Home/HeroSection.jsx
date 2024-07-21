@@ -12,7 +12,7 @@ export default function HeroSection() {
   };
 
   return (
-    <div className="bg-white md:px-10 py-2 w-full">
+    <div className="bg-white md:px-8 py-2 w-full">
       <div className="flex flex-col md:flex-row items-start justify-between mt-14 px-4">
         <div className="md:w-1/2 mb-8 md:mb-0 flex flex-col">
           <div className="inline-block mb-6">
