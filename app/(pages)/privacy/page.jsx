@@ -42,7 +42,7 @@ export default function PrivacyPolicy() {
           <h1>Privacy Policy</h1>
         </MotionWrapper>
 
-        <p className="text-gray-600 mb-8">Last Updated: July 2024</p>
+        <h2 className="text-md font-satoshi font-semibold text-black md:mb-4 ">Last Updated: July 2024</h2>
 
         <div className="bg-white rounded-lg shadow-lg p-6 sm:p-8">
           <div className="flex flex-col-reverse md:flex-row">

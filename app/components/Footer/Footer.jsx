@@ -22,7 +22,7 @@ const Footer = () => {
           <div className="text-left">
             <h3 className="font-semibold mb-3">Connect With Us</h3>
             <ul>
-              <li><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:underline">LinkedIn</a></li>
+              <li><a href="https://linkedin.com/identityafrica" target="_blank" rel="noopener noreferrer" className="hover:underline">LinkedIn</a></li>
             </ul>
           </div>
           <div className="text-left">
