@@ -25,7 +25,7 @@ export default function HeroSection() {
           <h1 className="text-3xl md:text-5xl font-extrabold mb-4 font-recoleta ">
             Empowering Africa with Secure Identity Verification
           </h1>
-          <p className="text-gray-600 mb-6 md:mt-6 font-satoshi ">
+          <p className="text-gray-600 mb-6 md:mt-2 font-satoshi ">
             Effortlessly verify identities with cutting-edge technology tailored for the African market.
           </p>
           <div className="flex space-x-4 mb-8 md:mt-4">
@@ -33,7 +33,7 @@ export default function HeroSection() {
               className="bg-[#E76C21] flex items-center align-middle text-white px-6 py-2 rounded-full"
               onClick={handleGetStartedClick}
             >
-              Get Started <FaArrowRight className='ml-1' />
+              Get Started <FaArrowRight className='ml-2'  style={{ width: '10px', height: '14px' }} />
             </button>
             <button
               className="border [#E76C21] text-orange-500 px-6 py-2 rounded-full"
