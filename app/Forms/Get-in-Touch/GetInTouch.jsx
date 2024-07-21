@@ -46,21 +46,21 @@ const GetInTouchModal = ({ isOpen, onClose }) => {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
-      <div className="bg-white w-full  md:max-w-6xl relative rounded-3xl">
+    <div className="fixed inset-0 z-50  font-satoshi flex items-center justify-center bg-black bg-opacity-50">
+      <div className="bg-white w-full  md:max-w-4xl relative rounded-3xl">
         <button
           onClick={onClose}
           className="absolute top-4 right-4 text-gray-500 hover:text-gray-700"
         >
           <FiX className="text-2xl" />
         </button>
-        <h2 className="bg-orange-500 text-white p-4 rounded-t-3xl text-xl md:text-2xl font-semibold mb-6">
+        <h2 className="bg-orange-500 text-white p-10 rounded-t-3xl text-xl md:text-2xl font-semibold mb-6">
           GET IN TOUCH WITH US
         </h2>
         <form className="space-y-6" onSubmit={handleSubmit}>
           <div className="grid grid-cols-1 md:grid-cols-2 p-6 gap-6">
             <div>
-              <label className="block text-sm font-medium text-gray-700 flex items-center" htmlFor="fullName">
+              <label className="block text-sm  text-black font-bold items-center" htmlFor="fullName">
                 Full Name
                 <span className="text-red-500 ml-1">*</span>
               </label>
@@ -75,7 +75,7 @@ const GetInTouchModal = ({ isOpen, onClose }) => {
               />
             </div>
             <div>
-              <label className="block text-sm font-medium text-gray-700 flex items-center" htmlFor="phoneNumber">
+              <label className="block text-sm  text-black font-bold items-center" htmlFor="phoneNumber">
                 Phone Number
                 <span className="text-red-500 ml-1">*</span>
               </label>
@@ -90,7 +90,7 @@ const GetInTouchModal = ({ isOpen, onClose }) => {
               />
             </div>
             <div>
-              <label className="block text-sm font-medium text-gray-700 flex items-center" htmlFor="email">
+              <label className="block text-sm  text-black font-bold items-center" htmlFor="email">
                 Email Address
                 <span className="text-red-500 ml-1">*</span>
               </label>
@@ -105,7 +105,7 @@ const GetInTouchModal = ({ isOpen, onClose }) => {
               />
             </div>
             <div>
-              <label className="block text-sm font-medium text-gray-700 flex items-center" htmlFor="contactMethod">
+              <label className="block text-sm  text-black font-bold items-center" htmlFor="contactMethod">
                 Preferred Contact Method
                 <span className="text-red-500 ml-1">*</span>
               </label>
@@ -123,7 +123,7 @@ const GetInTouchModal = ({ isOpen, onClose }) => {
             </div>
           </div>
           <div className='p-6'>
-            <label className="block text-sm font-medium text-gray-700" htmlFor="message">Message</label>
+            <label className="block text-sm text-black font-bold" htmlFor="message">Message</label>
             <textarea
               id="message"
               rows="4"
@@ -134,7 +134,7 @@ const GetInTouchModal = ({ isOpen, onClose }) => {
             ></textarea>
           </div>
           <div className="flex justify-center pb-8">
-            <button type="submit" className="bg-orange-500 text-white px-6 py-2 rounded-full hover:bg-orange-600">
+            <button type="submit" className="bg-orange-500 text-white px-8 py-4 rounded-full hover:bg-orange-600">
               Submit Form
             </button>
           </div>

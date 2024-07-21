@@ -31,7 +31,7 @@ const ProductsSolutions = () => {
   ];
 
   return (
-    <div className="container max-w-full w-[90%] py-8 md:px-20 bg-[#FFFBF8]">
+    <div className="max-w-full py-8 md:px-20 bg-[#FFFBF8]">
       <section className='pt-28 md:pt-32 w-full flex flex-col items-center bg-[#FFFBF8]'>
         <div className='text-center max-w-[80%] md:max-w-[60%] lg:max-w-[70%] mb-8 '>
           <h2 className="text-4xl font-extrabold max-w-6xl font-recoleta">

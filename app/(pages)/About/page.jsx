@@ -68,7 +68,8 @@ const AboutUs = () => {
             </section>
             <section className="mb-12">
     <h2 className="text-md font-satoshi font-semibold text-black md:mb-4">OUR SPECIALTIES</h2>
-    <h3 className="text-4xl font-bold mb-6 font-recoleta">What We Do</h3>
+    <h3 className="text-4xl font-bold mb-2 font-recoleta">What We Do</h3>
+    <p className='font-satoshi mb-4'>We offer a comprehensive suite of verification solutions tailored to meet the unique needs of businesses and customers in the African fintech landscape. Our services include:</p>
     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 font-satoshi">
         <div className="p-6 bg-white shadow rounded-lg flex flex-row items-start h-full">
             <div className="w-16 h-16 bg-[#FFFBF8] rounded-xl flex items-center justify-center mr-4 border border-[#E76C21] flex-shrink-0">

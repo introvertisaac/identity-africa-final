@@ -2,8 +2,8 @@ import React from 'react';
 
 const DevelopersForm = () => {
   return (
-    <div className="flex justify-center items-center bg-[#FFFBF8] p-4 w-full max-w-full">
-      <form className="bg-white p-8 rounded-lg shadow-lg w-full max-w-[90%]">
+    <div className="flex justify-center items-center bg-[#FFFBF8] p-4 w-full max-w-full font-satoshi">
+      <form className="bg-white p-8 rounded-lg shadow-lg w-full max-w-[94%]">
         <h2 className="text-2xl font-semibold mb-6 p-2">Personal Information</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
           <div>
@@ -78,7 +78,7 @@ const DevelopersForm = () => {
           <textarea className="border p-2 focus:border-none outline-none bg-gray-50 rounded w-full mb-6" rows="2" placeholder="Add any comments or questions"></textarea>
         </div>
         <div className="flex items-center justify-center w-full">
-          <button type="submit" className="bg-orange-500 text-white px-4 py-2 rounded-3xl">
+          <button type="submit" className="bg-orange-500 text-white px-8 py-4 rounded-3xl">
             Submit Form
           </button>
         </div>

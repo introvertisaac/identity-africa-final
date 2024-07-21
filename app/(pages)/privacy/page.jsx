@@ -42,11 +42,11 @@ export default function PrivacyPolicy() {
           <h1>Privacy Policy</h1>
         </MotionWrapper>
 
-        <h2 className="text-md font-satoshi font-semibold text-black md:mb-4 ">Last Updated: July 2024</h2>
+        <h2 className="text-md font-satoshi font-semibold text-black md:mb-4 font-recoleta ">Last Updated: July 2024</h2>
 
         <div className="bg-white rounded-lg shadow-lg p-6 sm:p-8">
           <div className="flex flex-col-reverse md:flex-row">
-            <div className="w-full md:w-full md:pr-8">
+            <div className="w-full md:w-full md:pr-8 font-satoshi ">
               <p className="mb-6">
                 Your privacy is important to us. It is identityafrica&apos;s policy to respect your privacy regarding
                 any information we may collect from you across our website, 
@@ -59,7 +59,7 @@ export default function PrivacyPolicy() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.2 }}
               >
-                <h2 className="text-xl sm:text-2xl font-semibold mb-4">Introduction</h2>
+                <h2 className="text-xl sm:text-2xl font-semibold mb-4 font-recoleta ">Introduction</h2>
                 <p className="mb-4">
                   This procedure is intended to be used when a business process is put in place which requires the
                   collection of personal data from data subjects who fall within the scope of the Data Protection
@@ -77,7 +77,7 @@ export default function PrivacyPolicy() {
                   used in conjunction with a more traditional privacy policy if desired.
                 </p>
 
-                <h2 className="text-xl sm:text-2xl font-semibold mb-4">Privacy Policy Procedure</h2>
+                <h2 className="text-xl sm:text-2xl font-semibold mb-4 font-recoleta ">Privacy Policy Procedure</h2>
                 <p className="mb-4">
                   The purpose of this procedure is to create an appropriate privacy notice which provides the data
                   subject with the information they are required to receive, in as fair and transparent a way as
@@ -94,7 +94,7 @@ export default function PrivacyPolicy() {
                   requirements.
                 </p>
 
-                <h3 className="text-lg sm:text-xl font-semibold mb-4">Does the data subject already have the information?</h3>
+                <h3 className="text-lg sm:text-xl font-semibold mb-4 font-recoleta ">Does the data subject already have the information?</h3>
                 <p className="mb-4">
                   The ODPC/GDPR requires the data subject to be provided with the listed information unless the data
                   subject already has the information. It is therefore important to determine whether it is reasonable
@@ -105,7 +105,7 @@ export default function PrivacyPolicy() {
                   address any gaps.
                 </p>
 
-                <h3 className="text-lg sm:text-xl font-semibold mb-4">Where personal data is collected from the data subject</h3>
+                <h3 className="text-lg sm:text-xl font-semibold mb-4 font-recoleta ">Where personal data is collected from the data subject</h3>
                 <p className="mb-4">
                   If the data subject does not have the information required, the following must be provided at the time
                   when personal data are obtained:
@@ -131,7 +131,7 @@ export default function PrivacyPolicy() {
                   not apply (see the Data Subject Request Procedure for more information).
                 </p>
 
-                <h3 className="text-lg sm:text-xl font-semibold mb-4">Where personal data has not been obtained from data subject</h3>
+                <h3 className="text-lg sm:text-xl font-semibold mb-4 font-recoleta ">Where personal data has not been obtained from data subject</h3>
                 <p className="mb-4">
                   If the personal data are not obtained directly from the data subject, there are a number of additional
                   circumstances (i.e. in addition to the case where the data subject already has the information)
@@ -153,7 +153,7 @@ export default function PrivacyPolicy() {
                   <li className="mb-2">If used for communication (e.g. email addresses), at the latest when the first communication takes place</li>
                   <li className="mb-2">At the point where the data are disclosed to another recipient (if applicable)</li>
                 </ul>
-                <p className="mb-4">The information to be provided is as follows:</p>
+                <p className="mb-4 font-recoleta ">The information to be provided is as follows:</p>
                 <ol className="list-decimal pl-5 mb-6">
                   <li className="mb-2">Identity and contact details of the controller and, where applicable, of the controller’s representative</li>
                   <li className="mb-2">Contact details of the data protection officer, where applicable</li>
@@ -174,7 +174,7 @@ export default function PrivacyPolicy() {
                   will depend on the lawful basis of the processing.
                 </p>
 
-                <h3 className="text-lg sm:text-xl font-semibold mb-4">Informing the data subject</h3>
+                <h3 className="text-lg sm:text-xl font-semibold mb-4 font-recoleta ">Informing the data subject</h3>
                 <p className="mb-4">
                   There are two Privacy Notice Planning Forms available; one to be used where the personal data are
                   collected directly from the data subject, and the other where the personal data are obtained from
@@ -205,7 +205,7 @@ export default function PrivacyPolicy() {
                   alternative methods of screen design may allow a smoother user experience.
                 </p>
 
-                <h3 className="text-lg sm:text-xl font-semibold mb-4">Further Processing</h3>
+                <h3 className="text-lg sm:text-xl font-semibold mb-4 font-recoleta ">Further Processing</h3>
                 <p className="mb-4">
                   However, if it is decided to use the personal data for a purpose other than that for which the data
                   were obtained or collected, further information about that purpose, and the basis on which it is
