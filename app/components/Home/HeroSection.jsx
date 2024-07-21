@@ -13,7 +13,7 @@ export default function HeroSection() {
 
   return (
     <div className="bg-white md:px-8 py-2 w-full">
-      <div className="flex flex-col md:flex-row items-start justify-between mt-14 px-4">
+      <div className="flex flex-col md:flex-row items-start justify-between mt-20 mb-10 px-4">
         <div className="md:w-1/2 mb-8 md:mb-0 flex flex-col">
           <div className="inline-block mb-6">
             <div className="bg-[#FAE2D3] text-[#B9561A] px-3 py-1 rounded-full inline-block">
@@ -23,10 +23,10 @@ export default function HeroSection() {
           <h1 className="text-3xl md:text-5xl font-bold mb-4">
             Empowering Africa with Secure Identity Verification
           </h1>
-          <p className="text-gray-600 mb-6">
+          <p className="text-gray-600 mb-6 md:mt-6">
             Effortlessly verify identities with cutting-edge technology tailored for the African market.
           </p>
-          <div className="flex space-x-4 mb-8">
+          <div className="flex space-x-4 mb-8 md:mt-4">
             <button
               className="bg-orange-500 text-white px-6 py-2 rounded-full"
               onClick={handleGetStartedClick}
@@ -41,7 +41,7 @@ export default function HeroSection() {
             </button>
           </div>
           
-          <div className="mt-14">
+          <div className="md:mt-6">
             <div className="bg-white rounded-full p-2 flex items-center space-x-4 max-w-xl border border-[#FAE2D3]">
               <Image
                 src="/People.png"

@@ -7,7 +7,7 @@ import SecurityCompliance from './components/Home/Compliance';
 
 export default function Home() {
   return (
-    <div className='w-full py-8 md:px-20 bg-[#FFFBF8]'>
+    <div className='w-full py-4 md:px-20 bg-[#FFFBF8]'>
       <main className="min-h-screen w-full bg-[#FFFBF8] py-10 md:pt-32">
         <div className="w-full">
           <HeroSection />
