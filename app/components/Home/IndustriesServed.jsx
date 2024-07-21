@@ -43,8 +43,8 @@ function IndustryCard({ Icon, name, description }) {
             exit={{ opacity: 0 }}
             transition={{ duration: 0.3 }}
           >
-            <div className="w-16 h-16 bg-[#FFFBF8] rounded-xl flex items-center justify-center mb-4 border-2 border-[#E76C21]">
-              <Icon className="text-[#E76C21] text-3xl" />
+            <div className="w-16 h-16 bg-[#FFFBF8] rounded-xl flex items-center justify-center mb-4 border border-[#E76C21]">
+              <Icon className="text-[#E76C21] text-2xl" />
             </div>
             <p className="font-bold mb-2 font-satoshi text-xl">{name}</p>
             <div
