@@ -4,7 +4,7 @@ import { FaCheckCircle, FaChartBar, FaIdCard, FaUsers, FaClipboardList, FaFileAl
 
 const AboutUs = () => {
     return (
-        <div className="container mx-auto px-4 py-8 bg-[#FFFBF8]   max-w-full w-[90%] md:px-20 ">
+        <div className=" px-4 py-8 bg-[#FFFBF8]   max-w-full  md:px-20 ">
             <section className='pt-32 w-full flex flex-col items-center bg-[#FFFBF8]'>
                 <div className='text-center min-w-full md:max-w-[60%] lg:max-w-[80%] mb-8 flex justify-center items-center align-middle '>
                     <h2 className="text-4xl font-extrabold max-w-5xl font-recoleta">
