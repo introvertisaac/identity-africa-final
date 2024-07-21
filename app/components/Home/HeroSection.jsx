@@ -15,7 +15,7 @@ export default function HeroSection() {
 
 
     <div className=" bg-white  md:px-4 py-8 w-full">
-      <div className="bg-orange-50 text-orange-700 px-3 py-1 rounded-full inline-block mb-4">
+      <div className="bg-orange-50 text-orange-700 px-3 py-1 rounded-full inline-block mb-0">
         THE CONTINENT OF AFRICA
       </div>
 
@@ -43,10 +43,10 @@ export default function HeroSection() {
 
         <div className="md:w-1/2 relative">
           <Image
-            src="/map.png"
+            src="/map.svg"
             alt="Africa Map with Verification Icons"
-            width={500}
-            height={500}
+            width={700}
+            height={700}
           />
 
         </div>
