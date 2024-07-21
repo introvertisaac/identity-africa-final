@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 
@@ -10,12 +10,10 @@ export default function HeroSection() {
   const handleLearnMoreClick = () => {
     router.push('/Products');
   };
+
   return (
-
-
-
-    <div className=" bg-white  md:px-4 py-8 w-full">
-      <div className="bg-orange-50 text-orange-700 px-3 py-1 rounded-full inline-block mb-0">
+    <div className="bg-white md:px-4 py-8 w-full">
+      <div className="bg-orange-50 text-orange-700 px-3 py-1 rounded-full inline-block -mt-4">
         THE CONTINENT OF AFRICA
       </div>
 
@@ -34,8 +32,10 @@ export default function HeroSection() {
             >
               Get Started →
             </button>
-            <button className="border border-orange-500 text-orange-500 px-6 py-2 rounded-full"
-             onClick={handleLearnMoreClick}>
+            <button
+              className="border border-orange-500 text-orange-500 px-6 py-2 rounded-full"
+              onClick={handleLearnMoreClick}
+            >
               Learn More
             </button>
           </div>
@@ -48,7 +48,6 @@ export default function HeroSection() {
             width={700}
             height={700}
           />
-
         </div>
       </div>
 
@@ -68,7 +67,5 @@ export default function HeroSection() {
         </div>
       </div>
     </div>
-
-
   );
 }

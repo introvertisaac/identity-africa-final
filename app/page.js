@@ -1,12 +1,30 @@
-import Image from "next/image";
-import Footer from "./components/Footer/Footer";
-import Navbar from "./components/Navbar/Navbar";
-import Home from "./(pages)/home/page";
+import Head from 'next/head';
+import Faq from './components/Faq/Faq';
+import HeroSection from './components/Home/HeroSection';
+import Features from './components/Home/Features';
+import IndustriesServed from './components/Home/IndustriesServed';
+import SecurityCompliance from './components/Home/Compliance';
 
-export default function page() {
+
+export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen min-w-full">
-     <Home />
+    <div className='w-[100%]  py-8  bg-[#FFFBF8]'>
+     
+
+      <main className="min-h-screen w-full min-w-full bg-[#FFFBF8] py-10 md:pt-32 ">
+        <div className="container mx-auto">
+         
+          <HeroSection />
+          <Features />
+          <IndustriesServed/>
+          <SecurityCompliance/>
+          {/* FAQ Section */}
+          <Faq/>
+          
+
+          
+        </div>
+      </main>
     </div>
   );
 }
