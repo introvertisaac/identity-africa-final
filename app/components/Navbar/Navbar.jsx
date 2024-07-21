@@ -36,16 +36,16 @@ const Navbar = () => {
             </Link>
           </div>
           <div className="hidden md:flex flex-grow justify-center space-x-6">
-            {['/About', '/Products', '/Developers'].map((path) => (
+            {['/about', '/products', '/developers'].map((path) => (
               <Link
                 key={path}
                 href={path}
                 className={linkClasses(path)}
               >
                 <span className="relative inline-block">
-                  {path === '/About' && 'About Us'}
-                  {path === '/Products' && 'Products & Solutions'}
-                  {path === '/Developers' && 'Developers'}
+                  {path === '/about' && 'About Us'}
+                  {path === '/products' && 'Products & Solutions'}
+                  {path === '/developers' && 'Developers'}
                   <span className="absolute bottom-0 left-0 w-full h-0.5 bg-orange-500 transform origin-left transition-all duration-300 ease-in-out scale-x-0 group-hover:scale-x-100"></span>
                   <span className={`absolute bottom-0 left-0 w-full h-0.5 bg-orange-500 transform origin-left transition-all duration-300 ease-in-out ${currentPath === path ? 'scale-x-100' : 'scale-x-0'}`}></span>
                 </span>
@@ -53,7 +53,7 @@ const Navbar = () => {
             ))}
           </div>
           <div className="hidden md:flex">
-            <button onClick={toggleModal} className="bg-orange-500 text-white px-4 py-2 rounded-md hover:bg-orange-600 transition duration-300 ease-in-out rounded-md">
+            <button onClick={toggleModal} className="bg-orange-500 text-white px-4 py-2 rounded-3xl hover:bg-orange-600 transition duration-300 ease-in-out ">
               Get In Touch
             </button>
           </div>
@@ -65,7 +65,7 @@ const Navbar = () => {
         </div>
         {navOpen && (
           <div className="md:hidden bg-white shadow-md w-full">
-            {['/About', '/Products', '/Developers'].map((path) => (
+            {['/about', '/products', '/developers'].map((path) => (
               <Link
                 key={path}
                 href={path}
@@ -73,14 +73,14 @@ const Navbar = () => {
                   currentPath === path ? 'text-orange-500' : 'text-gray-700'
                 } transition-colors duration-300 ease-in-out`}
               >
-                {path === '/About' && 'About Us'}
-                {path === '/Products' && 'Products & Solutions'}
-                {path === '/Developers' && 'Developers'}
+                {path === '/about' && 'About Us'}
+                {path === '/products' && 'Products & Solutions'}
+                {path === '/developers' && 'Developers'}
               </Link>
             ))}
             <button
               onClick={toggleModal}
-              className="block w-full text-left px-4 py-2 hover:bg-gray-100 bg-[#E76C21] text-white rounded-md transition duration-300 ease-in-out rounded-md"
+              className="block w-full text-left px-4 py-2 hover:bg-gray-100 bg-[#E76C21] text-white rounded-3xl transition duration-300 ease-in-out "
             >
               Get In Touch
             </button>

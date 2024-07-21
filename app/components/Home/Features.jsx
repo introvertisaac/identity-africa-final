@@ -10,57 +10,60 @@ export default function Features() {
       </h1>
       
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div className='bg-white'>
-          <div className="p-4 rounded-lg mb-4">
-            <Image
-              src="/license.png"
+        <div className="bg-white p-4 rounded-lg shadow-lg mb-4 flex flex-col">
+          <div className="rounded-lg overflow-hidden flex-grow">
+            <video
+              src="/id.mp4"
               alt="Digital Driver's License"
-              width={300}
-              height={200}
-              className="w-full h-48 object-cover rounded"
+              className="w-full h-64 object-cover"
+              autoPlay
+              loop
+              muted
             />
           </div>
-          <div className='p-6'>
-          <h3 className="text-xl font-bold mb-2">Accurate Verification</h3>
-          <p className="text-gray-600">
-            Leverage our state-of-the-art technology, which is specially designed for African faces, ensuring a 99.8% accuracy rate in identity verification.
-          </p>
+          <div className="p-6 flex flex-col justify-end">
+            <h3 className="text-xl font-bold mb-2">Accurate Verification</h3>
+            <p className="text-gray-600">
+              Leverage our state-of-the-art technology, which is specially designed for African faces, ensuring a 99.8% accuracy rate in identity verification.
+            </p>
           </div>
         </div>
         
-        <div className='bg-white'>
-          <div className="bg-gray-100 p-4 rounded-lg mb-4">
-            <Image
-              src="/compliance.png"
+        <div className="bg-white p-4 rounded-lg shadow-lg mb-4 flex flex-col">
+          <div className="rounded-lg overflow-hidden flex-grow">
+            <video
+              src="/verification.mp4"
               alt="Compliance Letter"
-              width={300}
-              height={200}
-              className="w-full h-48 object-cover rounded"
+              className="w-full h-64 object-cover"
+              autoPlay
+              loop
+              muted
             />
           </div>
-          <div className='p-6'>
-          <h3 className="text-xl font-bold mb-2">Compliance at Scale</h3>
-          <p className="text-gray-600">
-            Stay ahead with our comprehensive solutions that meet local & international regulatory requirements, ensuring seamless KYC/AML compliance.
-          </p>
+          <div className="p-6 flex flex-col justify-end">
+            <h3 className="text-xl font-bold mb-2">Compliance at Scale</h3>
+            <p className="text-gray-600">
+              Stay ahead with our comprehensive solutions that meet local & international regulatory requirements, ensuring seamless KYC/AML compliance.
+            </p>
           </div>
         </div>
         
-        <div className='bg-white'>
-          <div className="bg-gray-100 p-4 rounded-lg mb-4">
-            <Image
-              src="/detector.png"
+        <div className="bg-white p-4 rounded-lg shadow-lg mb-4 flex flex-col">
+          <div className="rounded-lg overflow-hidden flex-grow">
+            <video
+              src="/detection.mp4"
               alt="Fraud Detection"
-              width={300}
-              height={200}
-              className="w-full h-48 object-cover rounded"
+              className="w-full h-50 object-cover"
+              autoPlay
+              loop
+              muted
             />
           </div>
-          <div className='p-6'>
-          <h3 className="text-xl font-bold mb-2">Fraud Detection</h3>
-          <p className="text-gray-600">
-            Protect your business with advanced fraud detection techniques, including government checks to prevent identity theft and fraud.
-          </p>
+          <div className="p-6 flex flex-col justify-end">
+            <h3 className="text-xl font-bold mb-2">Fraud Detection</h3>
+            <p className="text-gray-600">
+              Protect your business with advanced fraud detection techniques, including government checks to prevent identity theft and fraud.
+            </p>
           </div>
         </div>
       </div>
