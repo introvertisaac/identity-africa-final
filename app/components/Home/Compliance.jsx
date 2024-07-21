@@ -5,7 +5,7 @@ const SecurityCompliance = () => {
     // <div className='container mx-auto px-4 py-16 max-w-6xl'>
 
     
-    <div className="p-6 md:p-8 lg:p-10">
+    <div className="">
       <h1 className="text-3xl md:text-4xl font-bold mb-4">Security & Compliance</h1>
       
       <p className="mb-8 ">
