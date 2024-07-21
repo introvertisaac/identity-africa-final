@@ -64,7 +64,7 @@ export default function HeroSection() {
           <Image
             src="/map.svg"
             alt="Africa Map with Verification Icons"
-            width={700}
+            width={600}
             height={700}
           />
         </div>
