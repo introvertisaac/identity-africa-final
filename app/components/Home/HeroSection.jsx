@@ -28,7 +28,7 @@ export default function HeroSection() {
           <p className="text-gray-600 mb-6 md:mt-2 font-satoshi leading-tight ">
             Effortlessly verify identities with cutting-edge technology tailored for the African market.
           </p>
-          <div className="flex space-x-4 mb-8 md:mt-4">
+          <div className="flex space-x-4 mb-8 md:mt-4 font-semibold">
             <button
               className="bg-[#E76C21] flex items-center align-middle text-white px-6 py-2 rounded-full"
               onClick={handleGetStartedClick}
@@ -36,7 +36,7 @@ export default function HeroSection() {
               Get Started <FaArrowRight className='ml-2'  style={{ width: '10px', height: '14px' }} />
             </button>
             <button
-              className="border [#E76C21] text-orange-500 px-6 py-2 rounded-full"
+              className="border border-[#E76C21] text-orange-500 px-6 py-2 rounded-full"
               onClick={handleLearnMoreClick}
             >
               Learn More
