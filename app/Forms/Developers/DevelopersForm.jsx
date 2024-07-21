@@ -77,7 +77,7 @@ const DevelopersForm = () => {
           <label className="block text-gray-700 mb-2 font-semibold">Comments & Questions</label>
           <textarea className="border p-2 focus:border-none outline-none bg-gray-50 rounded w-full mb-6" rows="2" placeholder="Add any comments or questions"></textarea>
         </div>
-        <div className="flex items-center justify-center w-full">
+        <div className="flex items-center justify-center w-full mt-4">
           <button type="submit" className="bg-orange-500 text-white px-8 py-4 rounded-3xl">
             Submit Form
           </button>

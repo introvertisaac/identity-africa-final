@@ -35,7 +35,7 @@ const ProductsSolutions = () => {
       <section className='pt-28 md:pt-32 w-full flex flex-col items-center bg-[#FFFBF8]'>
         <div className='text-center max-w-[80%] md:max-w-[60%] lg:max-w-[70%] mb-8 '>
           <h2 className="text-4xl font-extrabold max-w-6xl font-recoleta">
-            We are providing <span className="text-[#E76C21]">comprehensive solutions</span> tailored <br/> for your needs
+            We are providing <span className="text-[#E76C21]">comprehensive solutions</span> tailored for your needs
           </h2>
         </div>
       </section>

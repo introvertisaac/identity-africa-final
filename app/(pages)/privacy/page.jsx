@@ -23,7 +23,7 @@ export default function PrivacyPolicy() {
   };
 
   return (
-    <div className="min-h-screen md:mt-32">
+    <div className="min-h-screen mt-32">
       <Head>
         <title>Privacy Policy - Identity Africa</title>
         <meta name="description" content="Identity Africa Privacy Policy" />
