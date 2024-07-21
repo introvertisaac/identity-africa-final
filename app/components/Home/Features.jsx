@@ -34,6 +34,7 @@ export default function Features() {
 
       {isMobile ? (
        <Swiper
+       className='mt-6'
        spaceBetween={10}
        slidesPerView={1}
        modules={[Pagination]}
