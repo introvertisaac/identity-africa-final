@@ -1,10 +1,7 @@
-import { Metadata } from 'next'
+
 import PrivacyContent from '@/app/components/Privacy/PrivacyContent'
 
-export const metadata = {
-  title: 'Privacy Policy - Identity Africa',
-  description: 'Identity Africa Privacy Policy',
-}
+
 
 export default function PrivacyPolicy() {
   return (
