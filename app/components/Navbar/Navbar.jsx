@@ -32,7 +32,7 @@ const Navbar = () => {
         <div className="w-full px-4 md:px-8 py-4 flex justify-between items-center">
           <div className="flex items-center">
             <Link href="/">
-              <img src="/logo.png" alt="Identify Africa" className="h-16" />
+              <img src="/logo.png" alt="Identify Africa" className="h-12" />
             </Link>
           </div>
           <div className="hidden md:flex flex-grow justify-center space-x-8">
