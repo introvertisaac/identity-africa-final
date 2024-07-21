@@ -44,7 +44,7 @@ export default function HeroSection() {
           </div>
           
           <div className="md:mt-6 ">
-            <div className="bg-white rounded-full p-2 flex items-center space-x-4 max-w-xl border border-[#FAE2D3] shadow-md flex flex-col md:flex-row">
+            <div className="bg-white rounded-full p-2  items-center space-x-4 max-w-xl border border-[#FAE2D3] shadow-md flex flex-col md:flex-row">
               <Image
                 src="/People.png"
                 alt="User Avatars"
