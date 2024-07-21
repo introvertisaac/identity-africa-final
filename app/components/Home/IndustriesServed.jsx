@@ -107,7 +107,7 @@ function IndustryCard({ Icon, name, description }) {
 export default function IndustriesServed() {
   return (
     <section className="py-16 px-4 md:px-0">
-      <h2 className="text-sm font-semibold text-gray-600 mb-4">WHO WE SERVE</h2>
+      <h2 className="text-md font-satoshi font-semibold text-black md:mb-4 ">WHO WE SERVE</h2>
       <h1 className="text-3xl md:text-5xl font-bold mb-16 max-w-4xl font-recoleta">
         Securing digital interactions across diverse industries in Africa
       </h1>
