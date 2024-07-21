@@ -1,9 +1,10 @@
+
 import Footer from '@/app/components/Footer/Footer'
 import Navbar from '@/app/components/Navbar/Navbar'
 import DevelopersForm from '@/app/Forms/Developers/DevelopersForm'
 import React from 'react'
 
-const page = () => {
+const Page = () => {
     return (
         <div className='pt-36 w-full flex flex-col items-center bg-[#FFFBF8]'>
     <div className='text-center max-w-[80%] md:max-w-full mb-8 '>
