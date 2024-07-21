@@ -4,7 +4,7 @@ import Navbar from '@/app/components/Navbar/Navbar'
 import DevelopersForm from '@/app/Forms/Developers/DevelopersForm'
 import React from 'react'
 
-const Page = () => {
+const Developers = () => {
     return (
         <div className='pt-36 w-full flex flex-col items-center bg-[#FFFBF8]'>
     <div className='text-center max-w-[80%] md:max-w-full mb-8 '>
@@ -18,4 +18,4 @@ const Page = () => {
     )
 }
 
-export default Page
+export default Developers
