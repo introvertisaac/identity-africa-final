@@ -57,10 +57,10 @@ const Faq = () => {
   ];
 
   return (
-    <div className="p-6 md:p-8 lg:p-10 max-w-7xl mx-auto w-full">
-      <h2 className="text-sm font-semibold text-gray-600 mb-4">FREQUENTLY ASKED QUESTIONS</h2>
-      <h1 className="text-3xl md:text-4xl font-bold mb-6 ">Need Help? Find Answers Here</h1>
-      <div className="space-y-4">
+    <div className="md:pt-10  w-full">
+      <h2 className="text-lg text-black  mb-4 font-satoshi">FREQUENTLY ASKED QUESTIONS</h2>
+      <h1 className="text-3xl md:text-4xl font-extrabold mb-6 font-recoleta">Need Help? Find Answers Here</h1>
+      <div className="space-y-4 bg-white font-satoshi">
         {faqData.map((item, index) => (
           <FAQItem 
             key={index}
