@@ -7,7 +7,7 @@ const SecurityCompliance = () => {
 
     
     <div className="">
-      <h1 className="text-3xl md:text-4xl font-bold mb-4">Security & Compliance</h1>
+      <h1 className="text-3xl md:text-5xl font-bold mb-4 font-recoleta">Security & Compliance</h1>
       
       <p className="mb-8 ">
         At Identify Africa, we prioritize the highest standards of security and compliance to safeguard your operations and protect user data. Our robust measures ensure adherence to global regulatory frameworks, providing peace of mind in an ever-evolving digital landscape.

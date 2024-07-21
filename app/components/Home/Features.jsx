@@ -26,9 +26,9 @@ export default function Features() {
 
   return (
     <section className="mt-10 md:ml-0">
-      <h2 className="text-sm font-semibold text-gray-600 md:mb-4">WHAT SETS US APART</h2>
+      <h2 className="text-sm font-semibold text-gray-600 md:mb-4 ">WHAT SETS US APART</h2>
 
-      <h1 className="text-4xl md:text-5xl font-bold mb-12 max-w-5xl">
+      <h1 className="text-3xl md:text-5xl font-bold mb-12 max-w-5xl font-recoleta">
         Secure, compliant, and efficient identity verification solutions
       </h1>
 

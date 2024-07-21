@@ -5,9 +5,11 @@ import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
 
 const FAQItem = ({ question, answer, isOpen, toggleOpen }) => {
   return (
-    <div className="mb-4">
+    <div className={`mb-4 ${isOpen ? 'shadow-xs' : ''} transition-shadow duration-300`}>
       <button
-        className="w-full text-left p-6 bg-[FAE2D3] hover:bg-peach-200 transition-colors duration-200 flex justify-between items-center"
+        className={`w-full text-left p-6 transition-colors duration-200 flex justify-between items-center ${
+          isOpen ? 'bg-[#FAE2D3] text-black' : 'bg-white hover:bg-[#FAE2D3] text-black'
+        }`}
         onClick={toggleOpen}
       >
         <span className="font-semibold">{question}</span>
@@ -25,6 +27,7 @@ const FAQItem = ({ question, answer, isOpen, toggleOpen }) => {
     </div>
   );
 };
+
 
 const Faq = () => {
   const [openIndex, setOpenIndex] = useState(null);
@@ -59,8 +62,8 @@ const Faq = () => {
   return (
     <div className="md:pt-10  w-full">
       <h2 className="text-lg text-black  mb-4 font-satoshi">FREQUENTLY ASKED QUESTIONS</h2>
-      <h1 className="text-3xl md:text-4xl font-extrabold mb-6 font-recoleta">Need Help? Find Answers Here</h1>
-      <div className="space-y-4 bg-white font-satoshi">
+      <h1 className="text-3xl md:text-5xl font-extrabold mb-6 font-recoleta">Need Help? Find Answers Here</h1>
+      <div className="space-y-4 bg-white text-lg font-satoshi">
         {faqData.map((item, index) => (
           <FAQItem 
             key={index}

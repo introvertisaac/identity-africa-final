@@ -108,7 +108,7 @@ export default function IndustriesServed() {
   return (
     <section className="py-16 px-4 md:px-0">
       <h2 className="text-sm font-semibold text-gray-600 mb-4">WHO WE SERVE</h2>
-      <h1 className="text-4xl md:text-4xl font-bold mb-16 max-w-4xl">
+      <h1 className="text-3xl md:text-5xl font-bold mb-16 max-w-4xl font-recoleta">
         Securing digital interactions across diverse industries in Africa
       </h1>
       <div className="flex flex-wrap justify-center md:justify-between items-stretch space-y-8 md:space-y-0 md:space-x-2">
