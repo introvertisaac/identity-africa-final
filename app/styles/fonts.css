@@ -13,8 +13,8 @@
 /* Recoleta Regular */
 @font-face {
   font-family: 'Recoleta';
-  src: url('/fonts/recoleta-regulardemo-webfont.woff2') format('woff2'),
-       url('/fonts/recoleta-regulardemo-webfont.woff') format('woff');
+  src: url('/fonts/Recoleta-Regular.woff2') format('woff2'),
+       url('/fonts/Recoleta-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
